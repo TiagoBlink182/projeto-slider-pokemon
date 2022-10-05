@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projeto Pokemon Slider - MapaDevWeek</title>
+
+    <link
+      rel="shortcut icon"
+      href="src/imagens/pokebola.png"
+      type="image/x-icon"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/css/reset.css" />
+    <link rel="stylesheet" href="src/css/estilos.css" />
+    <link rel="stylesheet" href="src/css/responsivo.css" />
+    <link rel="stylesheet" href="src/js/index.js" />
+    </head>
+  <body>
+    <header class="cabecalho">
+      <img src="src/imagens/pokebola.png" alt="pokébola" class="pokebola" />
+      <h1 class="titulo">POKÉMON</h1>
+      <img src="src/imagens/pokebola.png" alt="pokébola" class="pokebola" />
+    </header>
+    <main class="pokemon-slider">
+      <button class="btn-seta btn-voltar" id="btn-voltar">
+        <img src="src/imagens/seta.png" alt="seta voltar" />
+      </button>
+      <ul class="lista-pokemons">
+        <li class="cartao selecionado fundo1">
+          <div class="informacoes">
+            <h2 class="nome informacoes">Pikachu</h2>
+            <p class="informacoes vida">HP 300</p>
+          </div>
+
+          <div class="imagem">
+            <img src="src/imagens/pikachu.png" alt="Pikachu" class="foto" />
+          </div>
+
+          <div class="descricao">
+            <h3 class="titulodescricao">Descrição</h3>
+            <p class="textodescricao">
+              Ash Ketchum tem um Pikachu que ele obteve do Professor Carvalho em Pokémon, Eu Escolho Você!, o primeiro episódio da série do anime Pokémon. Ele é a assinatura Pokémon da série anime que já apareceu em cada episódio não-especial e todos os filmes de Pokémon desde então. Pikachu de Ash não gosta de estar em sua Pokébola.
+            </p>
+          </div>
+        </li>
+
+        <li class="cartao fundo2">
+          <div class="informacoes">
+            <h2 class="nome informacoes">Charizard</h2>
+            <p class="informacoes vida">HP 800</p>
+          </div>
+
+          <div class="imagem">
+            <img src="src/imagens/charizard.png" alt="Charizard" class="foto" />
+          </div>
+
+          <div class="descricao">
+            <h3 class="titulodescricao">Descrição</h3>
+            <p class="textodescricao">
+              Geralmente, um Charizard é competitivo.Ele adora a batalha e gasta uma grande quantidade de tempo de formação ou olhando adversários.Seu espírito competitivo também é notável, uma vez que nunca vai cuspir fogo em um inimigo mais fraco a menos que provocado ou ordenado. Quando fica muito irritado, as chamas em sua cauda se tornar uma cor branco-azulada. Ele cospe fogo que é quente o suficiente para derreter rochas. é conhecido também por incendios floestais causados por sua fúria.
+            </p>
+          </div>
+        </li>
+
+        <li class="cartao fundo3">
+          <div class="informacoes">
+            <h2 class="nome informacoes">MewTwo</h2>
+            <p class="informacoes vida">HP 1200</p>
+          </div>
+
+          <div class="imagem">
+            <img src="src/imagens/mewtwo.png" alt="MewTwo" class="foto" />
+          </div>
+
+          <div class="descricao">
+            <h3 class="titulodescricao">Descrição</h3>
+            <p class="textodescricao">
+              Mewtwo é altamente qualificado, com poderes psíquicos. Ele pode levitar através do uso de telecinese, falar telepaticamente, e assumir o controle da mente de outro ser vivo. Mewtwo também é capaz de empunhar vários tipos de ataques (mas em menor grau do que Mew). Para exercer suas poderosas habilidades psíquicas, ele fica parado por longos períodos de tempo em intensa concentração para aumentar as suas capacidades para a sua potência máxima.
+            </p>
+          </div>
+        </li>
+      </ul>
+
+      <button class="btn-seta btn-avancar" id="btn-avancar">
+        <img src="src/imagens/seta.png" alt="seta avançar" />
+      </button>
+    </main>
+
+    <script src="src/js/index.js"></script>
+  </body>
+</html>
